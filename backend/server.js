@@ -18,6 +18,8 @@ app.get("/", (req, res) => {
 
   
 app.use("/pub", express.static(`${__dirname}/../frontend/public`));
+app.use("/dist", express.static(`${__dirname}/../frontend/dist`));
+
 
 
 
